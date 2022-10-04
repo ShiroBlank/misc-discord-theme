@@ -1,6 +1,8 @@
+
+
 /**
  * @name Shiro Usagi
- * @author Shiro Usagi(But Festive)#2139
+ * @author Shiro Usagi
  * @version 1.0.0
  * @description shiro css snippits
 */
@@ -65,7 +67,7 @@ div[class^="groupStart-"], div[class^="da-groupStart"] {
 /*
  * Hide Nitro gift button in text input
  */
-.channelTextArea-rNsIhG .inner-MADQqc button[aria-label="Send a gift"] {
+.channelTextArea-1FufC0 .inner-NQg18Y button[aria-label="Send a gift"] {
     display: none;
     text-indent: -9999px;
     line-height: 0;
