@@ -1,0 +1,163 @@
+/**
+ * @name Shiro Usagi
+ * @author Shiro Usagi(But Festive)#2139
+ * @version 1.0.0
+ * @description shiro css snippits
+*/
+
+/*Below adds giant emotes*/
+.emoji{ width:20; height: 20px }
+.emoji.jumboable{ width: 126px; height: 126px}  
+.reactions .emoji{ width: 30px; height: 30px }
+.titleWrapper-3Vi_wz .emoji{ width: 30px; height: 30px }
+
+/*Below Removes BLM NAG*/    
+.anchor-3Z-8Bb .size12-3cLvbJ
+{
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+/*Below Changes BLM NAG Text, Optional, Remove If Wanted.*/
+.anchor-3Z-8Bb .size12-3cLvbJ::after 
+{
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    content: "";
+}    
+
+/*Below adds an element onto every image sent in chat*/
+/*.message-2qnXI6 .container-1ov-mD .anchor-3Z-8Bb::before
+{
+    z-index: 1;
+    text-indent: 10;
+    display: block;
+    line-height: initial;
+    content: "Url";
+}*/
+
+/*Below Removes CopyMessage ID Dropdown*/
+#message-copy-link.item-1tOPte
+{
+    text-indent: -9999px;
+    line-height: 0;
+    display: none;
+}
+
+.label-JWQiNe
+{
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+/*Hides SHOW BLOCKED MESSAGE diaglog in chat*/
+div[class^="container-"]{ min-height: 0; }
+div[class^="blockedSystemMessage-"], div[class*="blockedSystemMessage-"] { 
+    
+    display: none; 
+}
+
+div[class^="groupStart-"], div[class^="da-groupStart"] {
+    display: none;
+}
+
+/*
+ * Hide Nitro gift button in text input
+ */
+.channelTextArea-rNsIhG .inner-MADQqc button[aria-label="Send a gift"] {
+    display: none;
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+/* Avatar++ */
+.avatar-1BDn8e {
+  height: 3em;
+  width: 3em;
+}
+
+/*Expand on hover search bar*/
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
+
+/*blur unread pops*/
+.unreadTop-3rAB3r{
+    width:240px;
+    border-radius: 0 !important;
+    padding: 0;
+  }
+  .unreadTop-3rAB3r .bar-30k2ka:not(.mention-1f5kbO){
+    border-radius: 0 !important;
+    background: linear-gradient(var(--background-accent), transparent);
+    box-shadow: none;
+  }
+  .unreadTop-3rAB3r .bar-30k2ka.mention-1f5kbO{
+    border-radius: 0 !important;
+    background: linear-gradient(#f04747, transparent);
+    box-shadow: none;
+  }
+  .unreadBottom-1_LF_w {
+    width:240px;
+    border-radius: 0 !important;
+    padding:0;
+  }
+  .unreadBottom-1_LF_w  .bar-30k2ka:not(.mention-1f5kbO){
+    border-radius: 0px  !important;
+    background: linear-gradient(0deg, var(--background-accent), transparent);
+    box-shadow: none;
+  }
+  .unreadBottom-1_LF_w  .bar-30k2ka.mention-1f5kbO{
+    border-radius: 0 !important;
+    background: linear-gradient(0deg, #f04747, transparent);
+    box-shadow: none;
+  }
+  .unreadMentionsIndicatorBottom-2mDYbI{
+    padding:0px;
+    height:24px;
+  }
+  .unreadMentionsIndicatorBottom-2mDYbI .unreadMentionsBar-1Bu1dC{
+    border-radius: 0px !important;
+    background: linear-gradient(0deg, #f04747, transparent);
+  }
+  .unreadMentionsIndicatorTop-2-tcdU{
+    padding:0px;
+    height:24px;
+  }
+  .unreadMentionsIndicatorTop-2-tcdU .unreadMentionsBar-1Bu1dC{
+    border-radius: 0 !important;
+    background: linear-gradient(#f04747, transparent);
+  }
+/*end blur unread pops*/
+
+/*disable stickers*//*
+.message-2qnXI6 .assetWrapper-3GNt0z {
+  height: auto !important;
+  width: auto !important;
+}
+.message-2qnXI6 .assetWrapper-3GNt0z:active {
+  height: 160px !important;
+  width: 160px !important;
+}
+.message-2qnXI6 .assetWrapper-3GNt0z:after {
+  color: var(--text-link);
+  content: '1 blocked sticker - Show Sticker';
+}
+.message-2qnXI6 .assetWrapper-3GNt0z:hover::after {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.message-2qnXI6 .assetWrapper-3GNt0z:active::after {
+  content: none;
+}
+.message-2qnXI6 .assetWrapper-3GNt0z .pngImage-33yLRP,
+.message-2qnXI6 .assetWrapper-3GNt0z .lottieCanvas-1W7L-f {
+  display: none;
+}
+.message-2qnXI6 .assetWrapper-3GNt0z:active .pngImage-33yLRP,
+.message-2qnXI6 .assetWrapper-3GNt0z:active .lottieCanvas-1W7L-f {
+  display: block;
+}*/
+/*end disable stickers*/
